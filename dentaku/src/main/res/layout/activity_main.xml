@@ -1,0 +1,263 @@
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:maxLength="10"
+        android:gravity="bottom|right"
+        android:textSize="25dp"
+        android:paddingBottom="10px" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Code"
+            android:id="@+id/CMode"
+            android:layout_weight="1"
+            android:onClick="startCodeaActivity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="AC"
+            android:id="@+id/AC"
+            android:layout_weight="1"
+            android:onClick="buttonMethod" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="C"
+            android:id="@+id/C"
+            android:layout_gravity="right"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="BS"
+            android:id="@+id/BS"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonMethod"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="MR"
+            android:id="@+id/MR"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="MC"
+            android:id="@+id/MC"
+            android:layout_gravity="right"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="M+"
+            android:id="@+id/Madd"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="M-"
+            android:id="@+id/Msub"
+            android:onClick="buttonMethod"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="7"
+            android:id="@+id/i7"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="8"
+            android:id="@+id/i8"
+            android:layout_gravity="right"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="9"
+            android:id="@+id/i9"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="/"
+            android:id="@+id/wari"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="4"
+            android:onClick="buttonMethod"
+            android:id="@+id/i4"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="5"
+            android:id="@+id/i5"
+            android:layout_gravity="right"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="6"
+            android:id="@+id/i6"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="*"
+            android:id="@+id/kake"
+            android:onClick="buttonMethod"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="1"
+            android:id="@+id/i1"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="2"
+            android:id="@+id/i2"
+            android:layout_gravity="right"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="3"
+            android:onClick="buttonMethod"
+            android:id="@+id/i3"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="+"
+            android:id="@+id/tasu"
+            android:onClick="buttonMethod"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="0"
+            android:id="@+id/i0"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="."
+            android:id="@+id/dot"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="-"
+            android:id="@+id/minas"
+            android:onClick="buttonMethod"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="="
+            android:id="@+id/equal"
+            android:layout_weight="1"
+            android:onClick="buttonMethod" />
+
+    </LinearLayout>
+
+</LinearLayout>
